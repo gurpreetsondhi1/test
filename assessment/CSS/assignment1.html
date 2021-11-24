@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            border:yellowgreen ridge 8px ;
+            background-image:url(https://i1.wp.com/iprsrg.com/wp-content/uploads/2019/08/Background-Images-For-Websites-011.jpg?fit=1920%2C1080&ssl=1) ;
+            background-size: cover;
+        }
+        .name{
+            position: relative; 
+            height: 150px;   
+        }
+        .h2{
+            border: red solid 4px;
+            border-radius: 25px;
+            display: inline-block;
+            background-color: black;
+            color: white;
+            font-size:30px;
+            top: 10px;
+        }
+        .review{
+            position: relative; 
+            right: 50px; 
+            height: 60px;           
+        }
+        .contact{
+            position: relative;
+            margin-left: 220px;
+            margin-top: 20px;
+        } 
+        .welcome{
+            margin: 20px;
+        }
+        p{
+            margin: 5px;
+        }
+        .div2{
+            margin-top: 50px;
+        }
+        .circle{
+            display: inline-block;
+            position: relative;
+            bottom: 400px;
+            background-color: green;
+            border: grey solid 4px ;
+            border-radius: 100%;
+            height: 400px;
+            margin-left: 50px;
+        }
+        .circletext{
+            margin-top: 80px;
+            margin-left: 40px;
+            font-weight: 700;
+            font-size: 30px;
+            align-self: center;
+        }
+        .form{
+            background-color: white;
+            display: inline-block;
+            width: 400px;
+            margin-top: 20px;
+            border: dashed 6px orangered;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            position: relative;
+            left: 280px;
+        }
+        .reg{
+            font-size: 60px;
+            font-weight: 800;
+            color: orangered;
+            opacity: 40%;
+            text-align: center;
+        }
+        .label{
+            color: orangered;
+            font-size: 30px;
+            text-align: center;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            margin-left: 100px;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            margin-left: 100px;margin-bottom: 20px;
+        }
+        .h3{
+            border: red solid 6px;
+            border-radius: 25px;
+            width: 600px;
+            background-color: black;
+            color: white;
+            font-size:30px;
+            top: 10px;
+            height: 100px;
+            margin-left: 500px;
+            margin-bottom: 20px;
+        }
+        .Menu{
+            font-size: 50px;
+            font-weight: 800;
+            font-style: italic;
+            color: white;
+            margin-left: 240px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .b2{
+            margin: auto;
+            width: 1100px;
+            height: 700px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .b3{
+            width: 350px;
+            height:300px;
+            background-color: cyan;
+            border: solid green 2px;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+        .bottom{
+            color: indigo;
+            font-size: 40px;
+            text-align: center;
+            /* ==margin-left: 80px; */
+            font-weight: 800;
+        }
+        .li{
+            color: indigo;
+            font-size: 30px;
+            text-align: center;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="div1">
+        <div class="h2 name">
+        <p class="welcome">Welcome to the dhabha of tandoori roti </p>
+        <p class="welcome">luckyb hihckss</p>
+            </div>
+        <div class="h2 review">
+        <p>home review contact us try it</p>
+            </div>
+        <div class="h2 contact">
+        <p>Email:store@gmail.com</p>
+        <p>if you find any complain</p>
+        <p>contact on - 94566*****</p>
+            </div>
+    </div>
+    <div class="div2">
+        <div class="circle">
+            <p class="circletext" style="text-align: center;" >Exciting offers</p><hr style="width: 445px; margin-left: 20px;">
+            <p class="circletext" >**Exciting offers for rs-100 only**</p><hr>
+            <p class="circletext" style="text-align: center;"> pls rate it out of 5</p>
+
+        </div>
+        <div class="form">
+            <p class="reg">Please Register here</p>
+            <hr style="color: grey;">
+            <label  for="fname"><p class="label">First Name :</p> </label><br>
+            <input type="text" name="fname" id="fname" value="Enter your first name"><br>
+            <label for="lname"><p class="label">Last Name :</p> </label><br>
+            <input type="text" name="lname" id="lname" value="Enter Your Las Name"><br>
+            <LAbel  for="age"><p class="label">Age : </p> </LAbel><br>
+            <input type="date" name="age" id="age" value="mm/dd/yyyy"><br>
+            <label  for="email"><p class="label">Email : </p> </label> <br>
+            <input type="email" name="email" id="email" value="Enter you email"><br>
+            <label  for="c1"><p class="label">Are you more than 1 person ? </p> </label><br>
+            <input type="checkbox" name="c1" id="c1"><br>
+            <label  for="c2"><p class="label">Doyou have cough or cold ? </p> </label><br>
+            <input  type="checkbox" name="c2" id="c2"><br>
+            <label  for="submit"><p class="label"> Click Here </p> </label><br>
+            <button type="submit" name="submit">Submit</button><br>
+            <label  for="reset"><p class="label"> Reset </p> </label><br>
+            <button type="reset" name="reset" id="reset">Reset</button><br>
+        </div>
+    </div>
+    <div class="h3">
+        <p class="Menu">Menu</p>
+    </div>
+    <hr style="color: white;">
+    <div class="b2">
+        <div class="b3" >
+            <p class="bottom "> Starters</p> <hr>
+            <ul>
+                <li class="li">Paneer Tikka</li>
+                <li class="li">Tomato soup</li>
+                <li class="li">Tikki</li>
+                <li class="li">Gol Gappa</li>
+                <li class="li">Afghani Champ</li>
+                <li class="li">Fried Rice</li>
+            </ul>
+        </div>
+        <div class="b3" >
+            <p class="bottom"> South Indian</p> <hr>
+            <ul>
+                <li class="li" >Masala Dosa</li>
+                <li class="li" >Tomato Uttapam</li>
+                <li class="li" >Vada Sambhar</li>
+                <li class="li" >Tomato Uttapam</li>
+                <li class="li" >Onion Dosa</li>
+                <li class="li" >P P Dosa</li>
+            </ul>
+        </div>
+        <div class="b3" >
+            <p class="bottom"> Indian Kitchen</p> <hr>
+            <ul>
+                <li class="li" >Shahi Paneer</li>
+                <li class="li" >Kadhai Paneer</li>
+                <li class="li" >Poori Sabji</li>
+                <li class="li" >Aloo Ghobi</li>
+                <li class="li" >Dal Makhani</li>
+                <li class="li" >Malai Kofta</li>
+            </ul>
+        </div>
+        <div class="b3" >
+            <p class="bottom"> Rice & Salad</p> <hr>
+            <ul>
+                <li class="li" >Plain Rice</li>
+                <li class="li" >Jeera Rice</li>
+                <li class="li" >Fried Rice</li>
+                <li class="li" >Veg Pulao</li>
+                <li class="li" >Veg Biryani</li>
+                <li class="li" >Masal Salad</li>
+            </ul>
+        </div>
+        <div class="b3" >
+            <p class="bottom">Tandoori Bread</p> <hr>
+            <ul>
+                <li class="li" >Butter Roti</li>
+                <li class="li" >Missi Roti</li>
+                <li class="li" >Lacha Prantha</li>
+                <li class="li" >Butter Nan</li>
+                <li class="li" >Stuff Parantha</li>
+                <li class="li" >Paneer Parantha</li>
+            </ul>
+        </div>
+        <div class="b3" >
+            <p class="bottom">Beverages</p> <hr>
+            <ul>
+                <li class="li" >cold coffee</li>
+                <li class="li" >Cold Drinks</li>
+                <li class="li" >Cake</li>
+                <li class="li" >gajar Halwa</li>
+                <li class="li" >Ice Cream</li>
+                <li class="li" >Mineral Water</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
