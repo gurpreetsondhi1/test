@@ -1,0 +1,41 @@
+a{
+    font-size: 50px;
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+}
+a:visited{
+    color: chartreuse;
+}
+
+a:active{
+    color: cyan;
+}
+div{
+    border: cyan 2px solid;
+}
+
+/* p:nth-child(odd) {
+    color: red;
+  } */
+
+/* div+p{
+    color: red     ;
+} */
+
+/* .first p{
+    color: aqua     ;
+} */
+
+/* .first>p{
+    color: chartreuse     ;
+} */
+
+span~p{
+    color: rgb(0, 17, 255)     ;
+}
+
+.first+p{
+    color: red;
+}
