@@ -1,0 +1,101 @@
+body{
+    background-color: yellow;
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* margin-left: 120px; */
+    
+}
+.h1{
+    text-align: center; font-style: oblique ; text-decoration: underline;
+}
+ol{
+    margin-left: 30%;
+    /* border: 2px solid red; */
+}
+.box{
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    margin: 40px 0px 0px 40px;
+    /* border: 2px solid red; */
+}
+.box1{
+    transform: skew(20deg);
+    background-color: paleturquoise;
+    animation-name: mysnn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+.box2{
+    
+    background-color: red;
+    animation-name: myann;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+.box3{
+    background-color: paleturquoise;
+    
+    animation-name: myann1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.box41{
+    background-color: maroon;
+    
+    animation-name: myann41;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes myann41 {
+    99%{transform:scaley(0.5);}
+    
+}
+.box42{
+    background-color: mediumspringgreen;
+    animation-name: myann41;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes myann41 {
+    99%{transform:scalex(0.5);}
+    
+}
+.box43{
+    background-color: green;
+    animation-name: myann1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes myann1 {
+    100%{transform:rotate(-180deg);}
+    
+}
+@keyframes myann {
+    49%{transform:skewY(-30deg);}
+
+    50%{
+        transform: skewY(30deg);
+    }
+    
+}
+@keyframes mysnn {
+    50%{transform:skew(40deg);}
+
+    50%{
+        transform: skew(-30deg);
+    }
+    
+}
